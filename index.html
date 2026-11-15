@@ -84,8 +84,8 @@ td select{width:auto;padding:3px 6px;font-size:13px}
       <label>ساعات الاحتياط (4:00–5:30)<input type="number" id="t-bkh" value="1.5" step="0.5" min="0"></label>
     </div>
     <div class="inputs" style="margin-top:10px">
-      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--ink)" title="الورقة لا تذكر هل يقدر عاملان يشتغلان على نفس الطبلية"><input type="checkbox" id="t-pair" checked>العمل المشترك على الطبلية</label>
-      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--ink)"><input type="checkbox" id="t-useBk" checked>نقل فريق الاستلام للتحضير</label>
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--ink)" title="الورقة لا تذكر هل يقدر عاملان يشتغلان على نفس الطبلية"><input type="checkbox" id="t-pair">العمل المشترك على الطبلية</label>
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--ink)"><input type="checkbox" id="t-useBk">نقل فريق الاستلام للتحضير</label>
       <label>خطة الشاحنة الأقرب إذا بقي نقص<select id="t-plan"><option value="ot" selected>تأخير ساعة + أوفر تايم</option><option value="next">شحن المتبقي اليوم التالي (إذا يسمح التأخير)</option><option value="none">بدون</option></select></label>
       <label>تأخير جدة (ساعة)<input type="number" id="t-ext" value="1" step="0.5" min="0.5"></label>
       <label>عمّال الأوفر تايم<input type="number" id="t-ot" value="10" min="0"></label>
@@ -156,7 +156,7 @@ td select{width:auto;padding:3px 6px;font-size:13px}
       <label>زيادة الطلب في الذروة %<input type="number" id="f-peak" value="20" min="0" step="5"></label>
       <label>تضاعف غياب المرض في موسمه ×<input type="number" id="f-flu" value="1.5" min="1" step="0.1"></label>
       <label>زيادة الغياب بعد الإجازة %<input type="number" id="f-after" value="20" min="0" step="5"></label>
-      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--ink)"><input type="checkbox" id="f-pair" checked>العمل المشترك على الطبلية</label>
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--ink)"><input type="checkbox" id="f-pair">العمل المشترك على الطبلية</label>
       <label>محمّلون معتمدون للتحضير<input type="number" id="f-load" value="0" min="0"></label>
       <label style="flex-direction:row;align-items:center;gap:8px;color:var(--ink)"><input type="checkbox" id="f-flutoggle" checked>تفعيل موسم الأمراض (أكتوبر – مارس)</label>
     </div>
@@ -199,7 +199,7 @@ td select{width:auto;padding:3px 6px;font-size:13px}
   </details>
 </div>
 </main>
-<footer style="text-align:center;color:var(--muted);font-size:12px;padding:16px">آخر تحديث: 15 نوفمبر 2026 – 10:45 م</footer>
+<footer style="text-align:center;color:var(--muted);font-size:12px;padding:16px">آخر تحديث: 15 نوفمبر 2026 – 10:47 م</footer>
 
 <script>
 // ---------- Data from Absence_Driven_Staffing_System.xlsx (illustrative) ----------
